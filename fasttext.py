@@ -72,7 +72,6 @@ if __name__ == "__main__":
     lang = DeepLang('Input')
     lang.doEmbedding(corpus_path='corpus.txt', POSVob=True)
     test_vec = lang.word2vector('똥개')
-    test_vec = lang.word2vector('윤의녕')
     test_vec = lang.word2vector('나무')
     print(test_vec)
     print(lang.vector2word(test_vec))
